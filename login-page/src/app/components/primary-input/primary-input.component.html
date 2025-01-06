@@ -1,0 +1,10 @@
+<div class="input-wrapper">
+    <label [for]="formName">{{ label }}</label>
+    <div class="input-content">
+        <input type="text" [formControlName]="formName" [placeholder]="placeholder">
+        <div class="icon">
+            <ng-content></ng-content>
+        </div>
+    </div>
+    
+</div>
