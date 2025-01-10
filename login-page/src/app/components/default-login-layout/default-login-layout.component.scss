@@ -94,7 +94,7 @@ main {
     }
 }
 
-@media screen and (orientation: portrait) {
+@media screen and (max-width: 500px) and (orientation: portrait) {
     
     main {
         display: flow;
@@ -111,7 +111,7 @@ main {
 
 }
 
-@media screen and (orientation: landscape) {
+@media screen and (max-width: 1000px) and (orientation: landscape) {
     
     main {
         display: flow;
